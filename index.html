@@ -21,6 +21,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -37,6 +38,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -87,7 +89,7 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
+              <h3>Training</h3>
               <p>Programming Pathshala<br />Competitive Programming</p>
             </div>
             <div class="details-container">
@@ -116,8 +118,9 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
+        <!-- First row of skills -->
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Programming Languages</h2>
@@ -229,6 +232,38 @@
             </div>
           </div>
           <div class="details-container">
+            <h2 class="experience-sub-title">Android Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Studio</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second row of skills -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
             <h2 class="experience-sub-title">Data Science & ML</h2>
             <div class="article-container">
               <article>
@@ -332,6 +367,67 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
+        onclick="location.href='./#certificates'"
+      />
+    </section>
+    <section id="certificates">
+      <p class="section__text__p1">Check Out My</p>
+      <h1 class="title">Certificates</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Certificate 1 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Supervised Machine Learning: Regression and Classification</h2>
+            <p>Stanford University (Online)</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/tableau certificate.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+          
+          <!-- Certificate 2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Data Analysis with Tableau</h2>
+            <p>SalesForce</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/tableau certificate.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+          
+          <!-- Certificate 3 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Core Java</h2>
+            <p>CipherSchools</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/core java certificate.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
         onclick="location.href='./#projects'"
       />
     </section>
@@ -358,12 +454,6 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Reminder-Pro'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
           
@@ -384,12 +474,6 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Travel-with-us'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
           
@@ -409,12 +493,6 @@
                 onclick="location.href='https://github.com/sasanklakimsetti/Fraud-Detection'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Fraud-Detection'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -441,12 +519,6 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Data-Analysis-3'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
           
@@ -467,12 +539,6 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Data-Analysis-1'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
           
@@ -492,12 +558,6 @@
                 onclick="location.href='https://github.com/sasanklakimsetti/Data-Analysis-2'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sasanklakimsetti/Data-Analysis-2'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -538,6 +598,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
