@@ -34,6 +34,7 @@ function initTypingAnimation() {
     // Define the roles to cycle through
     const roles = [
         "Aspiring Software Developer",
+        "Data Engineer",
         "Spring Boot Developer",
         "Data Analyst",
         "Android Developer"
