@@ -432,3 +432,28 @@ footer p {
 }
 
 
+.details-container a {
+  text-decoration: none;
+  color: #0b0b0b; /* LinkedIn blue */
+  font-weight: 500;
+}
+.company-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: 500;
+}
+
+.company-logo{
+  width: 98px;
+  height: 98px;
+  /* object-fit: contain; */
+}
+
+.article-container img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
